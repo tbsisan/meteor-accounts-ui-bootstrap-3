@@ -32,8 +32,10 @@ Accounts.ui.config = function(options) {
 		}
 	});
 
-	if (typeof options.onCreate === 'function') {
+	if (options.onCreate && typeof options.onCreate === 'function') {
 		Accounts.ui._options.onCreate = options.onCreate;
+	} else if (! options.onCreate ) {
+		//ignore and skip
 	} else {
 		throw new Error("Accounts.ui.config: Value for 'onCreate' must be a" +
 				" function");
