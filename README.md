@@ -230,6 +230,8 @@ accountsUIBootstrap3.setLanguage('vi'); // for Vietnamese
 accountsUIBootstrap3.setLanguage('sk'); // for Slovak
 accountsUIBootstrap3.setLanguage('be'); // for Belarusian
 accountsUIBootstrap3.setLanguage('fa'); // for Persian
+accountsUIBootstrap3.setLanguage('sr-Cyrl'); // for Serbian, Cyrillian script
+accountsUIBootstrap3.setLanguage('sr-Latn'); // for Serbian, Latin script
 ```
 
 If you want to implement your own language, use the `map` function like so:
