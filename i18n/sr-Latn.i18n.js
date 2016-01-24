@@ -92,4 +92,4 @@ srLatn = {
 		newPasswordSameAsOld: "Nova i stara lozinka moraju biti različite",
 		signupsForbidden: "Prijave zabranjene"
 	}
-});
+};

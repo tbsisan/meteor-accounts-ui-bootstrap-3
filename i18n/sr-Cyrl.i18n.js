@@ -92,4 +92,4 @@ srCyrl = {
 		newPasswordSameAsOld: "Нова и стара лозинка морају бити различите",
 		signupsForbidden: "Пријаве забрањене"
 	}
-});
+};
