@@ -23,7 +23,7 @@ Accounts.ui.navigate = function (route, hash) {
 
 Accounts.ui.config = function(options) {
 	// validate options keys
-	var VALID_KEYS = ['passwordSignupFields', 'extraSignupFields', 'forceEmailLowercase', 'forceUsernameLowercase','forcePasswordLowercase',
+	var VALID_KEYS = ['onCreate', 'passwordSignupFields', 'extraSignupFields', 'forceEmailLowercase', 'forceUsernameLowercase','forcePasswordLowercase',
 	'requestPermissions', 'requestOfflineToken', 'forceApprovalPrompt'];
 
 	_.each(_.keys(options), function(key) {
@@ -31,6 +31,15 @@ Accounts.ui.config = function(options) {
 			throw new Error("Accounts.ui.config: Invalid key: " + key);
 		}
 	});
+
+	if (options.onCreate && typeof options.onCreate === 'function') {
+		Accounts.ui._options.onCreate = options.onCreate;
+	} else if (! options.onCreate ) {
+		//ignore and skip
+	} else {
+		throw new Error("Accounts.ui.config: Value for 'onCreate' must be a" +
+				" function");
+	}
 
 	options.extraSignupFields = options.extraSignupFields || [];
 
