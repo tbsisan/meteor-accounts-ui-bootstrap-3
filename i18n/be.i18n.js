@@ -1,4 +1,4 @@
-i18n.map('by', {
+i18n.map('be', {
 	resetPasswordDialog: {
 		title: "Скасаваць пароль",
 		newPassword: "Новы пароль",

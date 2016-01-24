@@ -58,7 +58,7 @@ Package.on_use(function (api) {
     'i18n/fi.i18n.js',
     'i18n/vi.i18n.js',
     'i18n/sk.i18n.js',
-    'i18n/by.i18n.js',
+    'i18n/be.i18n.js',
     'i18n/fa.i18n.js',
 		'i18n.js',
 
