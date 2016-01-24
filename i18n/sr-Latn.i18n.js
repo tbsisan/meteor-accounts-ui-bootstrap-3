@@ -1,4 +1,4 @@
-i18n.map("sr-SR", {
+srLatn = {
 	resetPasswordDialog: {
 		title: "Resetuj svoju lozinku",
 		newPassword: "Nova lozinka",
