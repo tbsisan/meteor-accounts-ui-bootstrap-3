@@ -1,4 +1,4 @@
-i18n.map('ua', {
+i18n.map('uk', {
 	resetPasswordDialog: {
 		title: "Скинути пароль",
 		newPassword: "Новий пароль",
