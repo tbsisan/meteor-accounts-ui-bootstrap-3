@@ -63,6 +63,7 @@ Package.on_use(function (api) {
     'i18n/sr-Cyrl.i18n.js',
     'i18n/sr-Latn.i18n.js',
     'i18n/sr.i18n.js',
+		'i18n/hu.i18n.js',
 		'i18n.js',
 
 		'login_buttons.html',

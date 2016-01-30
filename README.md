@@ -232,6 +232,7 @@ accountsUIBootstrap3.setLanguage('be'); // for Belarusian
 accountsUIBootstrap3.setLanguage('fa'); // for Persian
 accountsUIBootstrap3.setLanguage('sr-Cyrl'); // for Serbian, Cyrillian script
 accountsUIBootstrap3.setLanguage('sr-Latn'); // for Serbian, Latin script
+accountsUIBootstrap3.setLanguage('hu'); // for Hungarian
 ```
 
 If you want to implement your own language, use the `map` function like so:
@@ -260,4 +261,3 @@ Screenshots
 ![Sign In](http://i.imgur.com/SGLZkOE.png)
 ![Sign Up](http://i.imgur.com/7S3C18J.png)
 ![Configure Login Service](http://i.imgur.com/Noa7sSm.png)
-
