@@ -20,8 +20,8 @@ Package.on_use(function (api) {
 	// Allows the user of this package to choose their own Bootstrap
 	// implementation.
 	api.use(['twbs:bootstrap@3.3.1',
-	        'nemo64:bootstrap@3.3.1_1'],
-	        'client', {weak: true});
+					'nemo64:bootstrap@3.3.1_1'],
+					'client', {weak: true});
 	// Allows us to call Accounts.oauth.serviceNames, if there are any OAuth
 	// services.
 	api.use('accounts-oauth@1.0.0', {weak: true});
@@ -53,16 +53,16 @@ Package.on_use(function (api) {
 		'i18n/nl.i18n.js',
 		'i18n/ja.i18n.js',
 		'i18n/he.i18n.js',
-    'i18n/sv.i18n.js',
-    'i18n/uk.i18n.js',
-    'i18n/fi.i18n.js',
-    'i18n/vi.i18n.js',
-    'i18n/sk.i18n.js',
-    'i18n/be.i18n.js',
-    'i18n/fa.i18n.js',
-    'i18n/sr-Cyrl.i18n.js',
-    'i18n/sr-Latn.i18n.js',
-    'i18n/sr.i18n.js',
+		'i18n/sv.i18n.js',
+		'i18n/uk.i18n.js',
+		'i18n/fi.i18n.js',
+		'i18n/vi.i18n.js',
+		'i18n/sk.i18n.js',
+		'i18n/be.i18n.js',
+		'i18n/fa.i18n.js',
+		'i18n/sr-Cyrl.i18n.js',
+		'i18n/sr-Latn.i18n.js',
+		'i18n/sr.i18n.js',
 		'i18n/hu.i18n.js',
 		'i18n.js',
 
