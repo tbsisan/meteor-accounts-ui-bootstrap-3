@@ -122,9 +122,9 @@
 	{{#if visible}}
 		<!-- TODO: Implement more input types -->
 		{{#if equals inputType "checkbox"}}
-			<div class="checkbox">
-				<label><input type="checkbox" id="login-{{fieldName}}" name="login-{{fieldName}}" value="true">
-				{{{fieldLabel}}}</label>
+			<div class="checkbox checkbox-accounts-ui">
+				<input type="checkbox" id="login-{{fieldName}}" name="login-{{fieldName}}" value="true">
+				<label for="login-{{fieldName}}">{{{fieldLabel}}}</label>
 			</div>
 		{{/if}}
 
